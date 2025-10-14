@@ -65,11 +65,22 @@ D:\<User>\FirstLoginSetup.log
 ```
 ## Folder Structure
 ```bash
-/r3d_create_localuser_relocated
+r3d_create_localuser_relocated/
 │
-├─ create-localuser-relocated.ps1
-├─ LICENSE
-└─ README.md
+├── auto-generated/       # Example output created by the main script
+│ ├── 01run.ps1           # Auto-generated PowerShell launcher
+│ ├── 01start.bat         # Batch file that triggers the launcher
+│ └── FirstLoginSetup.ps1 # User relocation setup run at first login
+│
+├── helper/                                 # Utility and management scripts
+├ ├── create-admin-powershell-shortcut.ps1  # Optional helper to create admin shortcut
+│ ├── remove-localuser.ps1                  # Optional helper to quickly remove users
+│
+├── .gitignore                            # Git ignore rules
+├── CHANGELOG.md                          # Version history and development notes
+├── README.md                             # Project documentation and usage instructions
+├── create-localuser-relocated.ps1        # ## Main generator script (entry point)
+└── add remove localuser.txt              # Notes / placeholder for helper actions
 ```
 
 ---
