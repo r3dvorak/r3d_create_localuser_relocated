@@ -49,12 +49,12 @@ PS C:\> .\create-localuser-relocated.ps1
 ### 2. Follow the Prompts
 
 You’ll be asked for:
-Username
-Base drive (e.g. D: — validated for correctness)
-Full name (optional)
-Administrator rights (Y/n)
-No password (Y/n)
-Create symbolic links (Y/n)
+ - Username (works with spaces and special characters)
+ - Base drive (e.g. D: — validated for correctness)
+ - Full name (optional)
+ - Administrator rights (Y/n, without it won't do much)
+ - No password (Y/n, you will be prompt to create one at first login)
+ - Create symbolic links (Y/n, Compatibility with software that expects paths like C:\Users\<User>\Documents)
 
 ### 3. Login as the New User
 
