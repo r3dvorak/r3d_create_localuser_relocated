@@ -6,6 +6,7 @@ Practical automation for clean multi-drive Windows setups.
 ## Overview
 This PowerShell utility automates the creation of local Windows user accounts whose personal folders (Documents, Desktop, etc.) are relocated to another drive — typically **D:\<User>**.  
 It also prepares scheduled tasks and setup scripts (`01start.bat`, `01run.ps1`, `FirstLoginSetup.ps1`) that finalize the redirection on first login.
+The `FirstLoginSetup.ps1` script can be adjusted and rerun, if needed.
 
 ---
 
@@ -16,7 +17,6 @@ It also prepares scheduled tasks and setup scripts (`01start.bat`, `01run.ps1`, 
 - Safe re-launch with elevated rights
 - Auto-executes setup after first login (via scheduled task)
 - Clean logs and UTF-8 encoding throughout
-- Fully update-safe: no system files modified
 
 ---
 
