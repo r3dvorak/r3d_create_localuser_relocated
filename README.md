@@ -64,11 +64,15 @@ A log file is written to:
 D:\<User>\FirstLoginSetup.log
 ```
 ## Folder Structure
+```bash
 /r3d_create_localuser_relocated
 │
 ├─ create-localuser-relocated.ps1
 ├─ LICENSE
 └─ README.md
+```
+
+---
 
 ## Notes
 Tested on Windows 10 / 11 (PowerShell 5.1 and 7+)
