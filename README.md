@@ -79,8 +79,7 @@ r3d_create_localuser_relocated/
 ├── .gitignore                            # Git ignore rules
 ├── CHANGELOG.md                          # Version history and development notes
 ├── README.md                             # Project documentation and usage instructions
-├── create-localuser-relocated.ps1        # ## Main generator script (entry point)
-└── add remove localuser.txt              # Notes / placeholder for helper actions
+└── create-localuser-relocated.ps1        # ## Main generator script (entry point)
 ```
 
 ---
