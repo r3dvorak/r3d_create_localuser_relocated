@@ -1,0 +1,57 @@
+# ===============================
+# R3D Create Local User (Relocated)
+# Git ignore file
+# ===============================
+
+# --- PowerShell artifacts ---
+*.ps1~                 # temp/backup script edits
+*.psm1~                # temp modules
+*.psd1~                # temp data files
+*.bak
+*.tmp
+*.log
+*.out
+*.old
+
+# --- Windows system files ---
+Thumbs.db
+Desktop.ini
+ehthumbs.db
+$RECYCLE.BIN/
+System Volume Information/
+
+# --- VS Code ---
+.vscode/
+*.code-workspace
+
+# --- IDE / Editor cache ---
+.idea/
+*.suo
+*.user
+*.userosscache
+*.sln.docstates
+
+# --- Git / OS metadata ---
+.DS_Store
+*.lnk
+
+# --- Archives and build outputs ---
+*.zip
+*.7z
+*.rar
+*.tar
+*.gz
+
+# --- Local test folders ---
+/test*/ 
+/sandbox*/
+/tmp*/
+/output*/
+
+# --- Logs created by setup scripts ---
+FirstLoginSetup.log
+SetupHistory.log
+
+# --- Optional PowerShell transcripts ---
+PowerShell_transcript* 
+
