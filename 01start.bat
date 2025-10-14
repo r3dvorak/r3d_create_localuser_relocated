@@ -1,0 +1,6 @@
+@echo off
+echo Starte PowerShell Setup Launcher...
+powershell.exe -NoLogo -ExecutionPolicy Bypass -File "%~dp001run.ps1"
+echo.
+echo Druecken Sie eine Taste zum Schliessen...
+pause >nul
