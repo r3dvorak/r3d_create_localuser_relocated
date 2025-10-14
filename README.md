@@ -76,10 +76,10 @@ r3d_create_localuser_relocated/
 ├ ├── create-admin-powershell-shortcut.ps1  # Optional helper to create admin shortcut
 │ ├── remove-localuser.ps1                  # Optional helper to quickly remove users
 │
-├── .gitignore                            # Git ignore rules
-├── CHANGELOG.md                          # Version history and development notes
-├── README.md                             # Project documentation and usage instructions
-└── create-localuser-relocated.ps1        # Main generator script (entry point)
+├── .gitignore                      # Git ignore rules
+├── CHANGELOG.md                    # Version history and development notes
+├── README.md                       # Project documentation and usage instructions
+└── create-localuser-relocated.ps1  # Main generator script (entry point)
 ```
 
 ---
