@@ -39,6 +39,29 @@ Optional but recommended:
 
 ---
 
+---
+
+## ⚙️ Script Overview
+
+```powershell
+| Script / File                             | Description                                                                                                                     |
+| ----------------------------------------- | ------------------------------------------------------------------------------------------------------------------------------- |
+| **helper/create-localuser-relocated.ps1** | Main script — creates a new Windows user with relocated profile folders (e.g., `D:\Username`) and auto-generates setup scripts. |
+| **helper/remove-localuser.ps1**           | Safely removes a previously relocated local user, including registry and folder cleanup.                                        |
+| **auto-generated/01start.bat**            | Batch launcher executed on first login; starts the PowerShell setup process.                                                    |
+| **auto-generated/01run.ps1**              | PowerShell launcher that ensures admin rights and executes the main relocation setup.                                           |
+| **auto-generated/FirstLoginSetup.ps1**    | Core relocation logic that moves user folders, updates registry paths, and refreshes icons.                                     |
+| **create-admin-powershell-shortcut.ps1**  | Helper tool that creates a desktop shortcut for running PowerShell with admin rights.                                           |
+| **add remove localuser.txt**              | Notes or placeholder describing additional helper actions.                                                                      |
+| **CHANGELOG.md**                          | Complete version history and feature log.                                                                                       |
+| **README.md**                             | Documentation, setup instructions, and usage examples.                                                                          |
+| **.gitignore**                            | Excludes generated files, logs, and temporary content from version control.                                                     |
+
+```
+
+---
+
+
 ## Usage
 
 ### 1. Run the Script as Administrator
