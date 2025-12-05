@@ -26,32 +26,7 @@ System Volume Information/
 
 # --- IDE / Editor cache ---
 .idea/
-*.suo
-*.user
-*.userosscache
-*.sln.docstates
 
 # --- Git / OS metadata ---
 .DS_Store
 *.lnk
-
-# --- Archives and build outputs ---
-*.zip
-*.7z
-*.rar
-*.tar
-*.gz
-
-# --- Local test folders ---
-/test*/ 
-/sandbox*/
-/tmp*/
-/output*/
-
-# --- Logs created by setup scripts ---
-FirstLoginSetup.log
-SetupHistory.log
-
-# --- Optional PowerShell transcripts ---
-PowerShell_transcript* 
-
